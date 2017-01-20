@@ -2,22 +2,24 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Drivy</title>
+	<link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
+      <input id="model" class="textbox" type="text" placeholder="Car model"/>
+      <input id="price-by-day" class="textbox" type="number" placeholder="Price by day"/>
+      <input id="price-by-km" class="textbox" type="number" placeholder="Price by km"/>
     </div>
     <div id="rental">
-	toto
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <input id="begin" class="textbox" type="date" placeholder="Rental begin date"/>
+      <input id="end" class="textbox" type="date" placeholder="Rental end date"/>
+      <input id="distance" class="textbox" type="number" placeholder="Distance in km"/>
+      <input id="option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
+    <div id="mon_boutton">
+    <button id="compute" class="button" style="vertical-align:middle"><span>Compute</span></button>
+	<div id="actors"></div>
+	</div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
         <div class="actor">
