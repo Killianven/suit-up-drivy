@@ -2,28 +2,30 @@
 {
 	border: 1px solid black;
 	width: 550px;
+	height: 100px;
 	margin : auto ;
 	padding : 20px;
 	margin-top : 100px;
 	border-radius: 15px 50px;
-     background: #05F72D;
-   background: -webkit-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -moz-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -ms-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -o-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
+     background: #EDEDED;
+   background: -webkit-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -moz-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -ms-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -o-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
 }
 #rental{
 	border: 1px solid black;
 	width: 550px;
+	height: 100px;
 	margin : auto ;
 	padding : 20px;
 	margin-top : 100px;
 	border-radius: 15px 50px;
-      background: #05F72D;
-   background: -webkit-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -moz-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -ms-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -o-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
+      background: #EDEDED;
+   background: -webkit-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -moz-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -ms-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -o-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
 }
 
 #mon_boutton{
@@ -33,11 +35,11 @@
 	padding : 20px;
 	margin-top : 100px;
 	border-radius: 15px 50px;
-      background: #05F72D;
-   background: -webkit-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -moz-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -ms-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
-   background: -o-linear-gradient(68deg, #088F39 27%, #05F72D 94%);
+     background: #EDEDED;
+   background: -webkit-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -moz-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -ms-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
+   background: -o-linear-gradient(68deg, #808080 20%, #EDEDED 100%);
 }
 .button {
   display: inline-block;
@@ -86,11 +88,14 @@
 }
 
 #actors{
-float : right;
+   float : right;
+   font-size: 20px;
+   padding: 10px;
+   color: #000000;
+   border: solid 1px #aaa;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   text-shadow: 1px 1px 16px #BFBFBF;
 }
-
-
- 
  .textbox {
     width: 150px;
     border: solid 1px #ccc;
@@ -118,7 +123,11 @@ float : right;
     outline: 0;
 }
 
+body {
+    background-image: url("voitures.jpg");
+    background-color: #cccccc;
+}
 
-
-
-
+.CommentBox  {
+    margin-top:30px;
+}

@@ -6,15 +6,22 @@
   </head>
   <body>
     <div id="car">
+	<div class="CommentBox">
+
       <input id="model" class="textbox" type="text" placeholder="Car model"/>
       <input id="price-by-day" class="textbox" type="number" placeholder="Price by day"/>
       <input id="price-by-km" class="textbox" type="number" placeholder="Price by km"/>
+</div>
+
     </div>
     <div id="rental">
+	<div class="CommentBox">
+
       <input id="begin" class="textbox" type="date" placeholder="Rental begin date"/>
       <input id="end" class="textbox" type="date" placeholder="Rental end date"/>
       <input id="distance" class="textbox" type="number" placeholder="Distance in km"/>
       <input id="option" type="checkbox" placeholder="Deductible option"/>
+	  </div>
     </div>
     <div id="mon_boutton">
     <button id="compute" class="button" style="vertical-align:middle"><span>Compute</span></button>
@@ -29,6 +36,7 @@
         </div>
       {{/actors}}
     </script>
+	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
     <script src="drivy.js"></script>
     <script src="index.js"></script>
